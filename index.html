@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="tf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylelogin.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <title> Area Login | E-Sinau</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="dashboard.html" class="sign-in-form">
+            <img src="images/avatar.svg" width="125px">
+            <h2 class="title">Sign In</h2>
+            <div class="input-field">
+              <i class="fa fa-user"></i>
+              <input type="text" placeholder="Nama Pengguna" required>
+            </div>
+            <div class="input-field">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="Kata Sandi" required>
+            </div>
+            <input type="submit" value="Login" class="btn solid">
+          </form>
+          <form action="#" class="sign-up-form">
+            <img src="images/avatar.svg" width="125px">
+            <h2 class="title">Sign up</h2>
+            <div class="input-field">
+              <i class="fa fa-user"></i>
+              <input type="text" placeholder="Nama Pengguna" required="">
+            </div>
+            <div class="input-field">
+              <i class="fa fa-envelope"></i>
+              <input type="email" placeholder="Email" required="">
+            </div>
+            <div class="input-field">
+              <i class="fa fa-lock"></i>
+              <input type="password" placeholder="Kata Sandi" required="">
+            </div>
+            <input type="submit" class="btn" value="Daftar">
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Belum Punya Akun ?</h3>
+            <p>Registrasi terlebih dahulu untuk mengakses <b>E-Sinau</b></p>
+            <button class="btn transparent" id="sign-up-btn">
+              Registrasi
+            </button>
+          </div>
+          <img src="images/learning.png" class="image">
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>~ Ojo Lali Sinau Yoo ~</h3>
+            <p>Akses yang cepat dan memudahkan kita untuk pembelajaran dimana saja.</p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign In
+            </button>
+          </div>
+          <img src="images/girls.svg" class="image">
+        </div>
+      </div>
+    </div>
+
+    <script src="js/loginscript.js"></script>
+  </body>
+</html>
